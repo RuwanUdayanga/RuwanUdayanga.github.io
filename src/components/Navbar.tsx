@@ -26,7 +26,7 @@ function Navbar() {
       }`}
     >
       <a className="navbar-brand pl-4" href="#">
-        <img src="../src/assets/name2.png" width="200" height="80" alt="" />
+        <img src="../src/assets/name2.png" width="200" height="80" alt="Logo" />
       </a>
 
       <button
