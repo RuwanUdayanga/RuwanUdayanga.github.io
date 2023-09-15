@@ -1,0 +1,12 @@
+.Contacts-Heading{
+    color: white;
+    font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
+    
+}
+.Contact-name{
+    color: white;
+}
+.contact{
+    display: inline-flex;
+    align-items: center;
+}
