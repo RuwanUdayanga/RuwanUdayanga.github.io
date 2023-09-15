@@ -27,7 +27,13 @@ function Navbar() {
       }`}
     >
       <a className="navbar-brand pl-4" href="#">
-        <img src={name} width="200" height="80" alt="Logo" />
+        <img
+          src={name}
+          className="img-fluid"
+          width="200"
+          height="80"
+          alt="Logo"
+        />
       </a>
 
       <button

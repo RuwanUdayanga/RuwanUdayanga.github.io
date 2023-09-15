@@ -6,17 +6,16 @@ function Work() {
   return (
     <div id="work" className="container-fluid bg-black ">
       <div className="row pb-5">
-        <div className="col-3">
+        <div className="col-md-3">
           <h1 className="Intro-Heading pt-5 pb-3 pl-5">My Work</h1>
         </div>
-        <div className="col-6"></div>
+        <div className="col-md-6"></div>
       </div>
       <div className="row pb-5">
-        <div className="col-6 pl-5">
-          <img src={chatbot} width="400" alt="chatbot" />
-          <img src="../src/assets/Chatbot-2-removebg.png" width="400" alt="" />
+        <div className="col-md-6 pl-5">
+          <img src={chatbot} className="img-fluid" width="400" alt="chatbot" />
         </div>
-        <div className="col-5 pl-5">
+        <div className="col-md-5 pl-5">
           <h3 className="project-heading pb-5">
             Hospital Customer Care Chatbot
           </h3>
@@ -34,7 +33,7 @@ function Work() {
         </div>
       </div>
       <div className="row pt-5 pb-5">
-        <div className="col-6 pl-5">
+        <div className="col-md-6 pl-5">
           <h3 className="project-heading pb-5">
             Human Resource Management System
           </h3>
@@ -52,15 +51,20 @@ function Work() {
             scalability across organizations.
           </p>
         </div>
-        <div className="col-5 pt-5 pl-5">
-          <img src={HR} width="400" alt="HR Management" />
+        <div className="col-md-5 pt-5 pl-5">
+          <img src={HR} className="img-fluid" width="400" alt="HR Management" />
         </div>
       </div>
       <div className="row pb-5">
-        <div className="col-6 pl-5">
-          <img src={expence_manager} width="300" alt="Expence Manager" />
+        <div className="col-md-6 pl-5">
+          <img
+            src={expence_manager}
+            className="img-fluid"
+            width="300"
+            alt="Expence Manager"
+          />
         </div>
-        <div className="col-5 pt-5 pl-5">
+        <div className="col-md-5 pt-5 pl-5">
           <h3 className="project-heading pb-5">Expense Management System</h3>
           <p className="project-content">
             Enhance the functionality of an existing Android application by

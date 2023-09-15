@@ -3,8 +3,8 @@ function About() {
   return (
     <div className="container-fluid bg-dark ">
       <div className="row pb-5">
-        <div className="col-3"></div>
-        <div className="col-6">
+        <div className="col-md-3"></div>
+        <div className="col-md-6">
           <h1 className="Intro-Heading pt-5 pb-3">About Me</h1>
           <p className="about pt-3 pb-5">
             Adaptable Computer Science and Data Science undergraduate known for
