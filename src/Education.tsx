@@ -1,4 +1,6 @@
 import "./styles/Education.css";
+import TCC_logo from "./assets/TCC.png";
+import UOM_logo from "./assets/UOM.png";
 
 function Education() {
   return (
@@ -8,8 +10,8 @@ function Education() {
         <div className="col-6">
           <h1 className="Intro-Heading pt-5">Education</h1>
           <div className="row">
-            <div className="col-3 content-year pt-4">2010-2019</div>
-            <div className="col-8 content pt-4">
+            <div className="col-3 content-year pt-5">2010-2019</div>
+            <div className="col-8 content pt-5">
               <h6>
                 Secondary Education:{" "}
                 <a href="https://taxilappa.org/taxila-central-collage/">
@@ -27,7 +29,7 @@ function Education() {
             </div>
             <div className="col-1">
               <a href="https://uom.lk/">
-                <img src="../src/assets/TCC1.png" width="100" alt="" />
+                <img src={UOM_logo} width="100" alt="UOM Logo" />
               </a>
             </div>
           </div>
@@ -51,7 +53,7 @@ function Education() {
             </div>
             <div className="col-1">
               <a href="https://uom.lk/">
-                <img src="../src/assets/UOM.png" width="100" alt="" />
+                <img src={TCC_logo} width="100" alt="TCC Logo" />
               </a>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "../styles/Navbar.css";
+import name from "../assets/name.png";
 
 function Navbar() {
   const [scrolling, setScrolling] = useState(false);
@@ -26,7 +27,7 @@ function Navbar() {
       }`}
     >
       <a className="navbar-brand pl-4" href="#">
-        <img src="../src/assets/name2.png" width="200" height="80" alt="Logo" />
+        <img src={name} width="200" height="80" alt="Logo" />
       </a>
 
       <button

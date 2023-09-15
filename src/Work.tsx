@@ -1,5 +1,7 @@
 import "./styles/work.css";
-
+import chatbot from "./assets/Chatbot.png";
+import HR from "./assets/HR.png";
+import expence_manager from "./assets/expence-manager.png";
 function Work() {
   return (
     <div id="work" className="container-fluid bg-black ">
@@ -11,6 +13,7 @@ function Work() {
       </div>
       <div className="row pb-5">
         <div className="col-6 pl-5">
+          <img src={chatbot} width="400" alt="chatbot" />
           <img src="../src/assets/Chatbot-2-removebg.png" width="400" alt="" />
         </div>
         <div className="col-5 pl-5">
@@ -50,12 +53,12 @@ function Work() {
           </p>
         </div>
         <div className="col-5 pt-5 pl-5">
-          <img src="../src/assets/HR-removebg.png" width="400" alt="" />
+          <img src={HR} width="400" alt="HR Management" />
         </div>
       </div>
       <div className="row pb-5">
         <div className="col-6 pl-5">
-          <img src="../src/assets/expence-removebg.png" width="300" alt="" />
+          <img src={expence_manager} width="300" alt="Expence Manager" />
         </div>
         <div className="col-5 pt-5 pl-5">
           <h3 className="project-heading pb-5">Expense Management System</h3>
