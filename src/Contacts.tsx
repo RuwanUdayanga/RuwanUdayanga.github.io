@@ -10,11 +10,15 @@ import {
 
 function Contacts() {
   return (
-    <div id="contacts" className="container-fluid bg-black ">
+    <div
+      id="contacts"
+      className="container-fluid bg-black "
+      style={{ marginBottom: 0 }}
+    >
       <div className="row pb-5">
         <div className="col-md-3"></div>
         <div className="col-md-9">
-          <h3 className="Contacts-Heading pt-5 pb-4">Find Me On</h3>
+          <h3 className="heading-contact pt-5 pb-5">Find Me On</h3>
           <div className="row pb-3">
             <div className="col-md-3">
               <a

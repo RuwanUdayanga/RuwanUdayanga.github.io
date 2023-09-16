@@ -2,23 +2,29 @@ import "./styles/work.css";
 import chatbot from "./assets/Chatbot.png";
 import HR from "./assets/HR.png";
 import expence_manager from "./assets/expence-manager.png";
+import { Github } from "react-bootstrap-icons";
 function Work() {
   return (
-    <div id="work" className="container-fluid bg-black ">
+    <div id="work" className="container-fluid bg-black bg-work">
       <div className="row pb-5">
-        <div className="col-md-3">
-          <h1 className="Intro-Heading pt-5 pb-3 pl-5">My Work</h1>
+        <div className="col-md-4">
+          <h1 className="heading-work pt-5 pb-3">Projects</h1>
         </div>
         <div className="col-md-6"></div>
       </div>
-      <div className="row pb-5">
-        <div className="col-md-6 pl-5">
-          <img src={chatbot} className="img-fluid" width="400" alt="chatbot" />
-        </div>
-        <div className="col-md-5 pl-5">
+      <div className="row">
+        <div className="col-md-6"></div>
+        <div className="col-md-6">
           <h3 className="project-heading pb-5">
             Hospital Customer Care Chatbot
           </h3>
+        </div>
+      </div>
+      <div className="row pb-5">
+        <div className="col-md-6 chatbot-img">
+          <img src={chatbot} className="img-fluid" width="400" alt="chatbot" />
+        </div>
+        <div className="col-md-5 d-flex flex-column align-items-center">
           <p className="project-content">
             Project aimed to revolutionize healthcare support services by
             developing an intelligent chatbot system proficient in Sinhala
@@ -30,13 +36,31 @@ function Work() {
             commitment to leveraging technology for patient-centric healthcare
             solutions.
           </p>
+          <a
+            className="nav-link"
+            href="https://github.com/RuwanUdayanga/Chatbot3.0"
+          >
+            <div>
+              <Github
+                className="git github-link mt-5"
+                color="white"
+                size={40}
+              />
+            </div>
+          </a>
         </div>
       </div>
-      <div className="row pt-5 pb-5">
-        <div className="col-md-6 pl-5">
+      <div className="row">
+        <div className="col-md-6">
           <h3 className="project-heading pb-5">
             Human Resource Management System
           </h3>
+        </div>
+        <div className="col-md-6"></div>
+      </div>
+      <div className="row pb-5">
+        <div className="col-md-1"></div>
+        <div className="col-md-5 d-flex flex-column align-items-center">
           <p className="project-content">
             A robust and scalable Human Resource Management system meticulously
             designed to cater to the specific organizational needs of employer,
@@ -51,21 +75,30 @@ function Work() {
             scalability across organizations.
           </p>
         </div>
-        <div className="col-md-5 pt-5 pl-5">
-          <img src={HR} className="img-fluid" width="400" alt="HR Management" />
+        <div className="col-md-6 HR-img">
+          <img
+            src={HR}
+            className="img-fluid "
+            width="400"
+            alt="HR Management"
+          />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-6"></div>
+        <div className="col-md-6">
+          <h3 className="project-heading pb-5"> Expense Management System </h3>
         </div>
       </div>
       <div className="row pb-5">
-        <div className="col-md-6 pl-5">
+        <div className="col-md-6">
           <img
             src={expence_manager}
-            className="img-fluid"
-            width="300"
+            className="img-fluid exp-img"
             alt="Expence Manager"
           />
         </div>
-        <div className="col-md-5 pt-5 pl-5">
-          <h3 className="project-heading pb-5">Expense Management System</h3>
+        <div className="col-md-5">
           <p className="project-content">
             Enhance the functionality of an existing Android application by
             implementing a persistent storage solution using an embedded

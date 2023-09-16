@@ -22,7 +22,7 @@ function Navbar() {
 
   return (
     <nav
-      className={`navbar sticky-top navbar-expand-lg navbar-dark bg-black ${
+      className={`navbar sticky-top navbar-expand-lg navbar-dark bg-black bg-nav ${
         scrolling ? "navbar-hidden" : ""
       }`}
     >
@@ -51,6 +51,9 @@ function Navbar() {
         <div className="navbar-nav ml-auto">
           <a className="nav-link active" href="#profile">
             Profile <span className="sr-only">(current)</span>
+          </a>
+          <a className="nav-link" href="#about">
+            About
           </a>
           <a className="nav-link" href="#work">
             Work

@@ -1,9 +1,63 @@
 .content{
     color: white;
+    padding-top: 4rem;
+}
+.heading-edu{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
 }
 .content-year{
     color: white;
+    font-size: large;
+    font-family: sans-serif;
+    padding-top: 4rem;
 }
 .content-details{
-    color: rgb(58, 58, 223);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: 400;
+}
+.bg-edu{
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+.link {
+    color: rgb(0, 0, 0); 
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none; 
+  }
+  
+.link:hover {
+    color: rgb(201, 172, 54); 
+    text-decoration: none; 
+}
+.logo{
+    padding-top: 2.5rem;
+}
+@media (max-width: 800px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0rem;
+    }
+}
+@media (max-width: 800px) {
+    .heading-edu {
+        margin-left: 0;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 800px) {
+    .content {
+        padding-top: 0;
+    }
+}
+@media (max-width: 800px) {
+    .content-year {
+        padding-top: 2.5rem;
+    }
 }

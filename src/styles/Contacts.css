@@ -1,7 +1,8 @@
-.Contacts-Heading{
+.heading-contact{
     color: white;
     font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
-    
+    font-size: 2.5rem;
+    margin-left: 1rem;
 }
 .Contact-name{
     color: white;
@@ -9,4 +10,11 @@
 .contact{
     display: inline-flex;
     align-items: center;
+}
+@media (max-width: 800px) {
+    .heading-contact {
+        margin-left: 0;
+        text-align: center;
+        font-size: 1.5rem;
+    }
 }
