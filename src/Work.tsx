@@ -98,7 +98,7 @@ function Work() {
             alt="Expence Manager"
           />
         </div>
-        <div className="col-md-5">
+        <div className="col-md-5 d-flex flex-column align-items-center">
           <p className="project-content">
             Enhance the functionality of an existing Android application by
             implementing a persistent storage solution using an embedded
@@ -109,6 +109,18 @@ function Work() {
             implementing methods and functionality required for interacting with
             the embedded database.
           </p>
+          <a
+            className="nav-link"
+            href="https://github.com/RuwanUdayanga/SimpleExpenseManager.git"
+          >
+            <div>
+              <Github
+                className="git github-link mt-5"
+                color="white"
+                size={40}
+              />
+            </div>
+          </a>
         </div>
       </div>
     </div>
